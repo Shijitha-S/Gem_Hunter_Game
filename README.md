@@ -1,17 +1,17 @@
-The project focuses on developing the 2D game called "Gem Hunters" in which our task is to build a C# code to design a virtual game where 2 players compete to collect the
+The project focuses on developing the 2D game called "Gem Hunters" in which our task is to build a C# code to design a virtual game where 2 players compete to collect
 most gems within a set number of turns. The method of designing the application is as follows:
 
 The game starts with a 6x6 game board containing 2 players (p1 and P2), some random numbers of obstacles, and random number of gems. 
 In my project, I have considered 6 Obstacles and 6 gems.
 
 The game consists of 30 rounds where players take turns.
-In each turn, the current player has to enter the position to move in the board. There are 4 positions in the board siuch as U (Up), D (Down), L (Left) and R (Right).
-Based on the position enetered the player wil move from current location to next position.
-If there are any opstacles beside, then the players will remain in the same position as they can not move onto or through squares with obstacles.
+In each turn, the current player has to enter the position to move in the board. There are 4 positions in the board such as U (Up), D (Down), L (Left) and R (Right).
+Based on the position entered, the player wil move from current location to next position.
+If there are any obstacles beside, then the players will remain in the same position as they can not move onto or through squares with obstacles.
 The loop continues until the game reaches the end condition (30 moves).
 
 Once the game ends after 30 iterations, the winner is determined based on the counts of gems the player has earned.
-After 30 rounds the winner is announced or of both the players have collected same number of gems then a tie will be printed. Finally, and the game terminates.
+After 30 rounds, the winner is announced or of both the players have collected same number of gems then a tie will be printed. Finally, and the game terminates.
 
 1. Classes: The various classes used in this projects are as follows:
 Position:
@@ -24,7 +24,7 @@ The method of this class is to move the player on the board based on input direc
 
 Cell:
 Represents a cell on the game board.
-Contains adetails of the occupant of the cell (player, gem, obstacle, or empty).
+Contains details of the occupant of the cell (player, gem, obstacle, or empty).
 
 Board:
 Represents the game board.
